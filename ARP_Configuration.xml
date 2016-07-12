@@ -1,0 +1,15 @@
+<ARPConfiguration>
+  <url>http://ec2-52-29-67-218.eu-central-1.compute.amazonaws.com/</url>
+  <backdoor>False</backdoor>
+  <login>automation</login>
+  <password>**Q30]tEHK</password>
+  <profile>QA EDC</profile>
+  <browser>ch</browser>
+  <targetTestCycle>testCycle</targetTestCycle>
+  <task>0</task>
+</ARPConfiguration>
+
+<!--
+http://dev-web.hrm.net.nixsolutions.com/
+
+-->
