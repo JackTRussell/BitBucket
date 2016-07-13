@@ -1,7 +1,7 @@
-@Feature_organisationChart
+@Feature_organisationChart @ST_700178687
 Feature: Organisation tree
 
-@dragAndDrop @dragAndDrop_001 @High
+@dragAndDrop @dragAndDrop_001 @High @SC_720051439
 Scenario Outline: Drag And Drop Customer chartitem between branches
 Given I`m on Organisation Chart page
 And I select "<organisation>" from Select Organistion DropDown
@@ -26,7 +26,8 @@ And I drag "<customer 2>" "Customer" chartitem to "<airport 2>" "Airport" charti
 Examples:
 | organisation                        | continent 1 | region 1    | country 1 | city 1 | airport 1 | continent 2 | region 2 | country 2 | city 2  | airport 2 | customer 2              |
 | Chapman Freeborn Group of Companies | Asia        | Middle East | UAE       | Dubai  | DXB       | Africa      | Africa   | KENYA     | Nairobi | NBO       | Chapman Freeborn Torino |
-@dragAndDrop @dragAndDrop_002 @High
+
+@dragAndDrop @dragAndDrop_002 @High @SC_720051440
 Scenario Outline: Drag And Drop Airport chartitem between branches
 Given I`m on Organisation Chart page
 And I select "<organisation>" from Select Organistion DropDown
