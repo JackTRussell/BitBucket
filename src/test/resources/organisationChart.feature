@@ -1,7 +1,7 @@
-@Feature_organisationChart @ST_700178687
+@Feature_organisationChart 
 Feature: Organisation tree
 
-@dragAndDrop @dragAndDrop_001 @High @SC_720051439
+@dragAndDrop @dragAndDrop_001 @High 
 Scenario Outline: Drag And Drop Customer chartitem between branches
 Given I`m on Organisation Chart page
 And I select "<organisation>" from Select Organistion DropDown
